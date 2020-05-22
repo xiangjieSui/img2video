@@ -11,23 +11,18 @@ This is the repository of paper [Omnidirectional Images as Moving Camera Videos]
 Matlab [oiqa_metric.m](/oiqa_metric.m)
 
 # Usage:
-git clone https://github.com/xiangjieSui/Omnidirectional-Images-as-Moving-Camera-Videos
+```git clone https://github.com/xiangjieSui/Omnidirectional-Images-as-Moving-Camera-Videos
 
 run demo.m
-
+```
 # Citation
+```
 @article{sui2020omnidirectional,
-
   title={Omnidirectional Images as Moving Camera Videos},
-  
   author={Xiangjie Sui and Kede Ma and Yiru Yao and Yuming Fang},
-  
-  journal = {CoRR},
-  
-  volume = {abs/2005.10547},
-  
-  year={2020},
-  
+  journal = {CoRR}, 
+  volume = {abs/2005.10547}, 
+  year={2020}, 
   url = {https://arxiv.org/abs/2005.10547}
-  
 }
+```
