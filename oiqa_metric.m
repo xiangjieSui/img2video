@@ -70,7 +70,6 @@ if (nargin == 2)
             dis_viewport = viewports_sampling(im_dis,scanpath(j,frame_index),...
                 scanpath(j+1,frame_index),FOV);
             score_index(scanpath_num,frame_index) = ssim_index(ref_viewport, dis_viewport);
-            score_index(scanpath_num,frame_index) = ssim_index(ref_viewport, dis_viewport);
         end
     end
     % K: duration of memory, 2s 
