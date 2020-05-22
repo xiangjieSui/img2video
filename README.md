@@ -11,8 +11,8 @@ This is the repository of paper [Omnidirectional Images as Moving Camera Videos]
 Matlab [oiqa_metric.m](/oiqa_metric.m)
 
 # Usage:
-```git clone https://github.com/xiangjieSui/Omnidirectional-Images-as-Moving-Camera-Videos
-
+```bash
+git clone https://github.com/xiangjieSui/Omnidirectional-Images-as-Moving-Camera-Videos
 run demo.m
 ```
 # Citation
