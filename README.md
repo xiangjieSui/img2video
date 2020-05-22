@@ -1,6 +1,6 @@
 # Omnidirectional-Images-as-Moving-Camera-Videos
 
-This is the repository of paper [Omnidirectional Images as Moving Camera Videos]()
+This is the repository of paper [Omnidirectional Images as Moving Camera Videos](https://arxiv.org/abs/2005.10547)
 
 # Highlights:
 1. A principled computational framework for objective quality assessment of 360° images.
@@ -16,4 +16,11 @@ git clone https://github.com/xiangjieSui/Omnidirectional-Images-as-Moving-Camera
 run demo.m
 
 # Citation
-to be updated
+@article{sui2020omnidirectional,
+  title={Omnidirectional Images as Moving Camera Videos},
+  author={Xiangjie Sui and Kede Ma and Yiru Yao and Yuming Fang},
+  journal = {CoRR},
+  volume = {abs/2005.10547},
+  year={2020},
+  url = {https://arxiv.org/abs/2005.10547}
+}
