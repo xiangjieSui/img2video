@@ -15,9 +15,9 @@ for i = 1:len
     t_max = min(i+K,len);
     % memory component
     if i == 1
-       memory_score  = score_pre(1);
+       memory_score(i)  = score_pre(1);
     else
-       memory_score = min(score_pre(t_min : i-1));
+       memory_score(i) = min(memory_score(t_min : i-1));
     end
     
     % current component
@@ -26,10 +26,10 @@ for i = 1:len
     sigma = (2*L-1)/12;
     gausFilter = fspecial('gaussian', [1,2*L], sigma);
     half_gausFilter = 2 * gausFilter(L+1:end);
-    curr_score = sum(reorder.*half_gausFilter)/sum(half_gausFilter);
+    curr_score(i) = sum(reorder.*half_gausFilter)/sum(half_gausFilter);
     
     % linear combining
-    score_index(i) = alpha*curr_score+(1-alpha)*memory_score;
+    score_index(i) = alpha*curr_score(i)+(1-alpha)*memory_score(i);
 end
 
 fin_score = nanmean(score_index);
