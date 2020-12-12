@@ -12,7 +12,7 @@ Matlab [oiqa_metric.m](/oiqa_metric.m)
 
 # Usage:
 ```bash
-git clone https://github.com/xiangjieSui/Omnidirectional-Images-as-Moving-Camera-Videos
+git clone https://github.com/xiangjieSui/img2video
 run demo.m
 ```
 # Citation
