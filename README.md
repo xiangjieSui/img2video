@@ -10,7 +10,7 @@ The database can be download at here [Database](https://drive.google.com/drive/f
 3. Three viewing behavior: starting point, exploration time, scanpath are incorporated into this framework.
 
 # Implementation version:
-1. Matlab (recommend)  
+1. Matlab [oiqa_metric.m](img2video/img2video-matlab/oiqa_metric.m) (recommend)  
 Requirements:  
 Matlab>=R2017a  
 (The speed is much faster when using MatLab R2020a.)
