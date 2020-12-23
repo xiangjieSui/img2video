@@ -19,7 +19,7 @@ Requirements: Python>=3.6, Pytorch>=1.0
 # Usage:
 ```bash
 git clone https://github.com/xiangjieSui/img2video
-run demo.m
+run demo.m/main.py
 ```
 # Citation
 ```
