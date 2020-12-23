@@ -11,8 +11,7 @@ The database can be download at here [Database](https://drive.google.com/drive/f
 
 # Implementation version:
 1. Matlab [oiqa_metric.m](https://github.com/xiangjieSui/img2video/blob/master/img2video-matlab/oiqa_metric.m) (recommend)  
-Requirements: Matlab>=R2017a  
-(The speed is much faster when using MatLab R2020a.)
+Requirements: Matlab>=R2017a (The speed is much faster when using MatLab R2020a.)
   
 2. Pytorch [im2video.py](https://github.com/xiangjieSui/img2video/blob/master/img2video_pytorch/im2video.py)
 Requirements: Python>=3.6, Pytorch>=1.0  
