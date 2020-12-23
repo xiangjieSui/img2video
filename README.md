@@ -10,7 +10,15 @@ The database can be download at here [Database](https://drive.google.com/drive/f
 3. Three viewing behavior: starting point, exploration time, scanpath are incorporated into this framework.
 
 # Implementation version:
-Matlab [oiqa_metric.m](/oiqa_metric.m)
+1. Matlab (recommend) [oiqa_metric.m](/oiqa_metric.m)
+Requirements:
+Matlab>=R2017a
+(The speed is much faster when using MatLab R2020a.)
+
+2.Pytorch main.py
+Requirements:
+Python>=3.6
+Pytorch>=1.0
 
 # Usage:
 ```bash
