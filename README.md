@@ -7,7 +7,7 @@ The database can be downloaded at here [Database](https://drive.google.com/drive
 # Highlights:
 1. A principled computational framework for objective quality assessment of 360° images.
 2. We propose to represent an omnidirectional image by different moving camera videos.
-3. Three viewing behavior: starting point, exploration time, scanpath are incorporated into this framework.
+3. Two viewing conditions are crucial in determining the viewing behaviors of users and the perceived quality of the panorama: starting point, exploration time.
 
 # Implementation version:
 1. Matlab [oiqa_metric.m](https://github.com/xiangjieSui/img2video/blob/master/img2video-matlab/oiqa_metric.m) (recommend)  
