@@ -2,7 +2,7 @@
 
 This is the repository of paper [Omnidirectional Images as Moving Camera Videos](https://arxiv.org/abs/2005.10547)
 
-The database can be download at here [Database](https://drive.google.com/drive/folders/1GJ9g3G-QmZbmFbXxiBYyf28xFID3SXxW?usp=sharing)
+The database can be downloaded at here [Database](https://drive.google.com/drive/folders/1GJ9g3G-QmZbmFbXxiBYyf28xFID3SXxW?usp=sharing)
 
 # Highlights:
 1. A principled computational framework for objective quality assessment of 360° images.
