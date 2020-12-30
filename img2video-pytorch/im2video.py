@@ -20,7 +20,7 @@ def im2vid(ref, dis, lon, lat, FOV, size, K, device):
         R = V.viewportSampling(ref, dis, lon[frame], lat[frame], FOV)
         # refViewport, disViewport = R.sampling()
         # plt.imshow(disViewport, cmap="gray")
-        plt.pause(1)
+        # plt.pause(1)
         refViewport = torch.from_numpy(refViewport).unsqueeze(0).unsqueeze(0).type(torch.float64)
         disViewport = torch.from_numpy(disViewport).unsqueeze(0).unsqueeze(0).type(torch.float64)
         score[0, frame] = model(disViewport, refViewport, as_loss=False)
