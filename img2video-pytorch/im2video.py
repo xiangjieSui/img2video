@@ -18,7 +18,7 @@ def im2vid(ref, dis, lon, lat, FOV, size, K, device):
     lat = np.deg2rad(lat)
     for frame in range(size):
         R = V.viewportSampling(ref, dis, lon[frame], lat[frame], FOV)
-        # refViewport, disViewport = R.sampling()
+        refViewport, disViewport = R.sampling()
         # plt.imshow(disViewport, cmap="gray")
         # plt.pause(1)
         refViewport = torch.from_numpy(refViewport).unsqueeze(0).unsqueeze(0).type(torch.float64)
