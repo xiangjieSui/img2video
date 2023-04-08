@@ -1,8 +1,6 @@
-# Omnidirectional-Images-as-Moving-Camera-Videos
+# Perceptual Quality Assessment of Omnidirectional Images as Moving Camera Videos [2022-TVCG]
 
-This is the repository of paper [Omnidirectional Images as Moving Camera Videos](https://arxiv.org/abs/2005.10547)
-
-The database can be downloaded at here [Database](https://drive.google.com/drive/folders/1GJ9g3G-QmZbmFbXxiBYyf28xFID3SXxW?usp=sharing)
+[[Paper]](https://arxiv.org/abs/2005.10547)   [[Subjective Experimental Data]](https://drive.google.com/drive/folders/1GJ9g3G-QmZbmFbXxiBYyf28xFID3SXxW?usp=sharing)
 
 # Highlights:
 1. A principled computational framework for objective quality assessment of 360° images.
@@ -24,11 +22,12 @@ run demo.m/main.py
 # Citation
 ```
 @article{sui2020omnidirectional,
-  title={Omnidirectional Images as Moving Camera Videos},
+  title={Perceptual Quality Assessment of Omnidirectional Images as Moving Camera Videos},
   author={Xiangjie Sui and Kede Ma and Yiru Yao and Yuming Fang},
-  journal = {CoRR}, 
-  volume = {abs/2005.10547}, 
-  year={2020}, 
-  url = {https://arxiv.org/abs/2005.10547}
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  volume={28},
+  number={8},
+  pages={3022-3034},
+  year={2022}
 }
 ```
